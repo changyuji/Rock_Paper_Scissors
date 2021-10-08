@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0105">
+    <steps>
+        
+        <step type="context" name="gameProperties">
+            <blocks>
+                <assessment type="programmatic" badge="true" name="gameProperties"/>
+                <block type="title" subtype="badge">
+                    <title id="9Xa-I6-YFB">Game Properties</title>
+                    <text id="LXZ-uu-T3d">Change the way the game works by trying some of the experiments below.</text>
+                </block>
+                <block type="carrot" subtype="experiment"/>
+                <block type="text">
+                    <text id="xbW-Ak-uK5">Change some of the game <a href="glossary://property">properties</a> to see how they affect your game.</text>
+                </block>
+                <block type="text">
+                    <text id="Wqi-b7-z7M">Add your code to your global function, <cv>setupGame()</cv>.</text>
+                </block>
+                <groupblock subtype="task" name="roundsToWinChanged" disclosed="false">
+                   <title id="I6N-wb-3bU">Rounds to Win</title>
+                   <image source="rounds-to-win" backgroundcolor="#FFF3CC"/>
+                   <block type="text">
+                    <text id="MaD-yH-Ftd">This property tells the game how many rounds a player must win to be victorious.</text>
+                </block>
+                <block type="code">game.roundsToWin = <num>2</num></block>
+               </groupblock>
+               <groupblock subtype="task" name="roundPrizeChanged" disclosed="false">
+                   <title id="BSd-pR-DrA">Round Prize</title>
+                   <image source="round-prize" backgroundcolor="#FFE2E2"/>
+                   <block type="text">
+                    <text id="UWQ-iP-R1g">This property changes the prize you get when you win a round.</text>
+                   </block>
+                   <block type="code">game.roundPrize = <str id="3Yb-3D-zQJ">"🍦"</str></block>
+               </groupblock>
+               <groupblock subtype="task" name="winRoundTextChanged" disclosed="false">
+                   <title id="JKy-Za-v8d">Win Round Text</title>
+                   <image source="win-round-text" backgroundcolor="#EADFFA"/>
+                   <block type="text">
+                        <text id="I5I-hV-cj4">The text that appears when you win a round.</text>
+                     </block>
+                     <block type="code">game.winRoundText = <str id="X76-gq-t78">"🌈WIN🌈"</str></block>
+               </groupblock>
+                 <groupblock subtype="task" name="loseRoundTextChanged" disclosed="false">
+                     <title id="YAY-xU-nA9">Lose Round Text</title>
+                     <image source="lose-round-text" backgroundcolor="#FFF3CC"/>
+                     <block type="text">
+                        <text id="Ktp-bJ-juw">The text that appears when you lose a round.</text>
+                     </block>
+                     <block type="code">game.loseRoundText = <str id="Wid-6D-xS3">"😫"</str></block>
+               </groupblock>
+               <groupblock subtype="task" name="tieRoundTextChanged" disclosed="false">
+                   <title id="Jjx-Un-3FV">Tie Round Text</title>
+                   <image source="tie-round-text" backgroundcolor="#DFEBF7"/>
+                   <block type="text">
+                        <text id="7pF-bH-8w8">The text that appears when you tie a round.</text>
+                     </block>
+                     <block type="code">game.tieRoundText = <str id="Fdj-jN-ZiB">"🤷"</str></block>
+               </groupblock>
+                 <groupblock subtype="task" name="challengerTextChanged" disclosed="false">
+                   <title id="A1g-87-rQL">Challenger Text</title>
+                   <image source="challenger-text" backgroundcolor="#DBF6D7"/>
+                   <block type="text">
+                       <text id="QJP-5z-mM9">This is your avatar for the game.</text>
+                     </block>
+                     <block type="code">game.challenger.graphic.text = <str id="Jyi-aX-z2F">"🤾"</str></block>
+               </groupblock>
+                 <groupblock disclosed="false">
+                     <title id="ioN-FU-Smb">Want to learn more about properties?</title>
+                     <image character="expert"/>
+                     <block type="text">
+                          <text id="LXZ-Ip-T3d">Remember your <cv>game</cv> variable?
+                              
+                              Since it’s of <a href="glossary://type">type</a> <cv>Game</cv>, it has its own variables, known as <a href="glossary://property">properties</a>, that change the way the game works!</text>
+                       </block>
+                     <block type="text">
+                         <text id="iiZ-Ip-T3d">If you want to see how to create variables, look in the <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/Game.swift"><icon name="module"/> Game</a> file and find the variables at the top of the <a href="glossary://class">class</a>.</text>
+                     </block>
+                 </groupblock>
+       
+                
+            </blocks>
+        </step>
+        
+        
+        
+        <message name="gameProperties-hint" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="5da-Lu-df1">Try adding one of the experiments to <cv>setupGame()</cv>. A fun one is: </text>
+                </block>
+                <block type="code">game.winRoundText = <str id="X76-alskdjfiieieieldld">"🌈WIN🌈"</str></block>
+            </blocks>
+        </message>
+        
+        
+        <message name="gameProperties-success1" sender="byte">
+            <blocks>
+                <block type="text">
+                        <text id="PLT-X2-7Zn"><b>Woo-hoo! Great start!</b></text>
+               </block>
+               <block type="text">
+                   <text id="rNt-rG-zij">Before you move on, try changing some of the other properties to fully customize your game.</text>
+                 </block>
+            </blocks>
+        </message>
+        
+        <message name="gameProperties-success2" sender="byte">
+              <blocks>
+                  <block type="text">
+                    <text id="p1U-zr-pNx"><b>Wow! You did them all. What an experimental coder you are!</b></text>
+                  </block>
+                  <block type="text">
+                      <text id="wxZ-2E-W5v">Keep playing with properties, or move on to see if you can spot the <a href="glossary://method">methods</a> in your code.</text>
+                    </block>
+                  <block type="buttons" alignment="trailing">
+                      <button href="@nextStep" symbol="arrow.right.circle.fill">
+                          <text id="1JV-q5-QJc">Next</text>
+                      </button>
+                  </block>
+              </blocks>
+          </message>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <step type="context">
+            <blocks>
+                <assessment type="response" badge="true"/>
+                <block type="title" subtype="badge">
+                    <title id="Um3-Cq-1VE">Game Methods</title>
+                    <text id="uAA-Mv-fTr">In addition to properties, you’ve also used a few <a href="glossary://method">methods</a> as well. Methods are what a <a href="glossary://type">type</a> can do — they define its abilities.</text>
+                </block>
+                 <block type="response" subtype="multiple-choice" name="level" confirm="true">
+                 <prompt id="IDC-8f-y46">See if you can pick out the methods you’ve used so far. Select all that apply.</prompt>
+                    <option type="correct">
+                        <text id="Mis-5Q-RDD"><cv>game.play()</cv></text>
+                        <feedback id="VQQ-W1-tv8">Correct! The game has the ability to play using the <cv>play()</cv> method.</feedback>
+                    </option>
+                    <option>
+                        <text id="kvY-Zr-prH"><cv>game.winRoundText = <str id="vUU-Uh-Rdu">"🌈WIN🌈"</str></cv></text>
+                        <feedback id="TuE-7z-uKs">😳 Looks like you mixed up properties and methods. Keep trying!</feedback>
+                    </option>
+                    <option>
+                        <text id="JKR-Ly-LCq"><cv>game.roundsToWin = <num>2</num></cv></text>
+                        <feedback id="v76-uW-Mdn">😬 Looks like you mixed up properties and methods. Keep trying!</feedback>
+                    </option>
+                    <option type="correct">
+                        <text id="MRA-QN-4My"><cv>game.addOpponent(<str id="suF-Up-AiK">"🦹"</str>)</cv></text>
+                        <feedback id="Sbq-wX-LSE">Correct! This method allows you to add up to four opponents.
+                        
+                        <a href="@next">Next</a>, work on your victory animations.</feedback>
+                    </option>
+             </block>
+             
+            </blocks>
+        </step>
+    </steps>
+</trail>

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bomb</key>
+	<array>
+		<string>{0,18}</string>
+		<string>{1,24}</string>
+		<string>{3,28}</string>
+		<string>{7,31}</string>
+		<string>{11,34}</string>
+		<string>{16,35}</string>
+		<string>{22,34}</string>
+		<string>{26,39}</string>
+		<string>{28,39}</string>
+		<string>{31,38}</string>
+		<string>{33,37}</string>
+		<string>{36,36}</string>
+		<string>{38,34}</string>
+		<string>{39,31}</string>
+		<string>{38,25}</string>
+		<string>{39,23}</string>
+		<string>{39,21}</string>
+		<string>{37,18}</string>
+		<string>{35,17}</string>
+		<string>{35,13}</string>
+		<string>{32,7}</string>
+		<string>{29,3}</string>
+		<string>{24,1}</string>
+		<string>{19,0}</string>
+		<string>{12,1}</string>
+		<string>{5,5}</string>
+		<string>{1,11}</string>
+	</array>
+	<key>fist</key>
+	<array>
+		<string>{3,33}</string>
+		<string>{6,35}</string>
+		<string>{8,35}</string>
+		<string>{10,34}</string>
+		<string>{12,35}</string>
+		<string>{14,36}</string>
+		<string>{15,36}</string>
+		<string>{17,36}</string>
+		<string>{18,35}</string>
+		<string>{19,36}</string>
+		<string>{21,38}</string>
+		<string>{24,37}</string>
+		<string>{26,36}</string>
+		<string>{27,36}</string>
+		<string>{30,37}</string>
+		<string>{33,36}</string>
+		<string>{34,35}</string>
+		<string>{34,26}</string>
+		<string>{34,24}</string>
+		<string>{36,22}</string>
+		<string>{36,16}</string>
+		<string>{34,10}</string>
+		<string>{31,5}</string>
+		<string>{27,2}</string>
+		<string>{24,1}</string>
+		<string>{15,1}</string>
+		<string>{11,3}</string>
+		<string>{6,7}</string>
+		<string>{4,15}</string>
+		<string>{3,18}</string>
+	</array>
+	<key>Brick_2</key>
+	<array>
+		<string>{94, 49 }</string>
+        <string>{99, 45 }</string>
+        <string>{99, 5 }</string>
+        <string>{94, 0 }</string>
+        <string>{4, 0 }</string>
+        <string>{0, 4 }</string>
+        <string>{-1, 44 }</string>
+        <string>{5, 49 }</string>
+	</array>
+	<key>Brick_1</key>
+	<array>
+		<string>{0, 50 }</string>
+        <string>{-1, 0 }</string>
+        <string>{99, 0 }</string>
+        <string>{99, 50 }</string>
+	</array>
+	<key>Brick_3</key>
+	<array>
+		<string>{94, 49 }</string>
+        <string>{99, 45 }</string>
+        <string>{99, 5 }</string>
+        <string>{94, 0 }</string>
+        <string>{4, 0 }</string>
+        <string>{0, 4 }</string>
+        <string>{-1, 44 }</string>
+        <string>{5, 49 }</string>
+	</array>
+	<key>Ball_2</key>
+	<array>
+		<string>{19,39}</string>
+        <string>{13,38}</string>
+        <string>{7,35}</string>
+        <string>{4,31}</string>
+        <string>{1,28}</string>
+        <string>{-1,26}</string>
+        <string>{1,21}</string>
+        <string>{3,17}</string>
+        <string>{5,15}</string>
+        <string>{8,13}</string>
+        <string>{11,12}</string>
+        <string>{14,11}</string>
+        <string>{18,11}</string>
+        <string>{21,11}</string>
+        <string>{24,11}</string>
+        <string>{28,12}</string>
+        <string>{32,13}</string>
+        <string>{35,16}</string>
+        <string>{38,19}</string>
+        <string>{40,21}</string>
+        <string>{42,19}</string>
+        <string>{44,17}</string>
+        <string>{46,16}</string>
+        <string>{49,16}</string>
+        <string>{49,19}</string>
+        <string>{47,22}</string>
+        <string>{45,24}</string>
+        <string>{44,24}</string>
+        <string>{45,25}</string>
+        <string>{48,27}</string>
+        <string>{49,30}</string>
+        <string>{49,33}</string>
+        <string>{45,32}</string>
+        <string>{42,30}</string>
+        <string>{41,28}</string>
+        <string>{40,27}</string>
+        <string>{38,31}</string>
+        <string>{34,35}</string>
+        <string>{30,37}</string>
+        <string>{28,38}</string>
+        <string>{24,39}</string>
+	</array>
+	<key>Ball_4</key>
+	<array>
+		<string>{36, 50 }</string>
+        <string>{22, 39 }</string>
+        <string>{17, 37 }</string>
+        <string>{15, 33 }</string>
+        <string>{15, 28 }</string>
+        <string>{11, 26 }</string>
+        <string>{9, 21 }</string>
+        <string>{9, 16 }</string>
+        <string>{10, 9 }</string>
+        <string>{13, 2 }</string>
+        <string>{17, 0 }</string>
+        <string>{22, 0 }</string>
+        <string>{27, 2 }</string>
+        <string>{33, 7 }</string>
+        <string>{37, 12 }</string>
+        <string>{38, 16 }</string>
+        <string>{40, 20 }</string>
+        <string>{40, 30 }</string>
+        <string>{39, 37 }</string>
+        <string>{37, 44 }</string>
+	</array>
+	<key>Ball_5</key>
+	<array>
+		<string>{27, 45 }</string>
+        <string>{22, 45 }</string>
+        <string>{15, 42 }</string>
+        <string>{8, 37 }</string>
+        <string>{3, 30 }</string>
+        <string>{0, 23 }</string>
+        <string>{-1, 18 }</string>
+        <string>{0, 8 }</string>
+        <string>{3, 6 }</string>
+        <string>{10, 5 }</string>
+        <string>{15, 5 }</string>
+        <string>{22, 5 }</string>
+        <string>{27, 6 }</string>
+        <string>{31, 9 }</string>
+        <string>{33, 10 }</string>
+        <string>{35, 9 }</string>
+        <string>{38, 8 }</string>
+        <string>{42, 9 }</string>
+        <string>{44, 10 }</string>
+        <string>{48, 13 }</string>
+        <string>{49, 17 }</string>
+        <string>{49, 22 }</string>
+        <string>{49, 27 }</string>
+        <string>{47, 33 }</string>
+        <string>{46, 36 }</string>
+        <string>{42, 39 }</string>
+        <string>{38, 43 }</string>
+        <string>{31, 45 }</string>
+	</array>
+    <key>FoulTile</key>
+    <array>
+        <string>{49, 0 }</string>
+        <string>{24, 50 }</string>
+        <string>{0, 1 }</string>
+    </array>
+    <key>Paddle_1</key>
+    <array>
+        <string>{99, 51 }</string>
+        <string>{109, 52 }</string>
+        <string>{117, 52 }</string>
+        <string>{126, 52 }</string>
+        <string>{139, 54 }</string>
+        <string>{151, 56 }</string>
+        <string>{163, 59 }</string>
+        <string>{171, 61 }</string>
+        <string>{181, 64 }</string>
+        <string>{189, 67 }</string>
+        <string>{199, 71 }</string>
+        <string>{199, 47 }</string>
+        <string>{197, 40 }</string>
+        <string>{191, 31 }</string>
+        <string>{183, 25 }</string>
+        <string>{170, 21 }</string>
+        <string>{156, 18 }</string>
+        <string>{146, 18 }</string>
+        <string>{150, 15 }</string>
+        <string>{149, 12 }</string>
+        <string>{145, 7 }</string>
+        <string>{142, 5 }</string>
+        <string>{137, 8 }</string>
+        <string>{128, 15 }</string>
+        <string>{124, 16 }</string>
+        <string>{84, 16 }</string>
+        <string>{59, 17 }</string>
+        <string>{30, 21 }</string>
+        <string>{15, 26 }</string>
+        <string>{6, 35 }</string>
+        <string>{0, 47 }</string>
+        <string>{-1, 71 }</string>
+        <string>{23, 62 }</string>
+        <string>{36, 59 }</string>
+        <string>{49, 56 }</string>
+        <string>{63, 54 }</string>
+        <string>{75, 52 }</string>
+        <string>{84, 52 }</string>
+    </array>
+    <key>Paddle_2</key>
+    <array>
+        <string>{4, 75 }</string>
+        <string>{194, 75 }</string>
+        <string>{197, 73 }</string>
+        <string>{199, 70 }</string>
+        <string>{199, 5 }</string>
+        <string>{199, 2 }</string>
+        <string>{194, 0 }</string>
+        <string>{5, 0 }</string>
+        <string>{1, 2 }</string>
+        <string>{0, 6 }</string>
+        <string>{-1, 69 }</string>
+        <string>{1, 72 }</string>
+        <string>{3, 74 }</string>
+    </array>
+    <key>Paddle_3</key>
+    <array>
+        <string>{0,70 }</string>
+        <string>{5,74 }</string>
+        <string>{194,75 }</string>
+        <string>{199,70 }</string>
+        <string>{199,4 }</string>
+        <string>{195,0 }</string>
+        <string>{4,0 }</string>
+        <string>{0,5 }</string>
+    </array>
+    <key>Paddle_4</key>
+    <array>
+        <string>{104,73 }</string>
+        <string>{117,73 }</string>
+        <string>{129,71 }</string>
+        <string>{143,69 }</string>
+        <string>{155,64 }</string>
+        <string>{164,61 }</string>
+        <string>{173,56 }</string>
+        <string>{185,49 }</string>
+        <string>{193,43 }</string>
+        <string>{199,37 }</string>
+        <string>{191,29 }</string>
+        <string>{181,23 }</string>
+        <string>{169,17 }</string>
+        <string>{154,10 }</string>
+        <string>{134,5 }</string>
+        <string>{116,3 }</string>
+        <string>{101,3 }</string>
+        <string>{81,5 }</string>
+        <string>{62,9 }</string>
+        <string>{50,14 }</string>
+        <string>{38,21 }</string>
+        <string>{29,27 }</string>
+        <string>{24,32 }</string>
+        <string>{21,24 }</string>
+        <string>{16,19 }</string>
+        <string>{10,15 }</string>
+        <string>{4,13 }</string>
+        <string>{0,13 }</string>
+        <string>{0,20 }</string>
+        <string>{3,27 }</string>
+        <string>{6,30 }</string>
+        <string>{9,33 }</string>
+        <string>{15,36 }</string>
+        <string>{10,39 }</string>
+        <string>{5,43 }</string>
+        <string>{2,49 }</string>
+        <string>{0,52 }</string>
+        <string>{0,59 }</string>
+        <string>{7,58 }</string>
+        <string>{12,56 }</string>
+        <string>{16,53 }</string>
+        <string>{20,49 }</string>
+        <string>{21,45 }</string>
+        <string>{23,40 }</string>
+        <string>{26,46 }</string>
+        <string>{35,53 }</string>
+        <string>{43,58 }</string>
+        <string>{55,64 }</string>
+        <string>{68,68 }</string>
+        <string>{83,71 }</string>
+    </array>
+    <key>Paddle_5</key>
+    <array>
+        <string>{96, 61 }</string>
+        <string>{113, 61 }</string>
+        <string>{124, 60 }</string>
+        <string>{134, 59 }</string>
+        <string>{144, 57 }</string>
+        <string>{155, 55 }</string>
+        <string>{166, 52 }</string>
+        <string>{174, 49 }</string>
+        <string>{183, 46 }</string>
+        <string>{190, 43 }</string>
+        <string>{196, 40 }</string>
+        <string>{199, 37 }</string>
+        <string>{196, 34 }</string>
+        <string>{190, 31 }</string>
+        <string>{185, 28 }</string>
+        <string>{176, 26 }</string>
+        <string>{173, 24 }</string>
+        <string>{165, 23 }</string>
+        <string>{154, 20 }</string>
+        <string>{145, 18 }</string>
+        <string>{133, 17 }</string>
+        <string>{125, 15 }</string>
+        <string>{110, 14 }</string>
+        <string>{96, 14 }</string>
+        <string>{81, 14 }</string>
+        <string>{68, 15 }</string>
+        <string>{52, 17 }</string>
+        <string>{39, 20 }</string>
+        <string>{24, 25 }</string>
+        <string>{15, 28 }</string>
+        <string>{6, 33 }</string>
+        <string>{0, 37 }</string>
+        <string>{4, 43 }</string>
+        <string>{12, 47 }</string>
+        <string>{23, 51 }</string>
+        <string>{37, 55 }</string>
+        <string>{51, 58 }</string>
+        <string>{62, 60 }</string>
+        <string>{77, 61 }</string>
+    </array>
+    <key>Paddle_6</key>
+    <array>
+        <string>{0,72}</string>
+        <string>{2,75}</string>
+        <string>{132,75}</string>
+        <string>{135,71}</string>
+        <string>{135,46}</string>
+        <string>{137,44}</string>
+        <string>{141,43}</string>
+        <string>{144,42}</string>
+        <string>{198,42}</string>
+        <string>{199,41}</string>
+        <string>{199,35}</string>
+        <string>{198,33}</string>
+        <string>{139,32}</string>
+        <string>{136,31}</string>
+        <string>{135,28}</string>
+        <string>{135,4}</string>
+        <string>{132,0}</string>
+        <string>{3,0}</string>
+        <string>{0,3}</string>
+    </array>
+    <key>WallTile</key>
+    <array>
+        <string>{0, 50 }</string>
+        <string>{49, 50 }</string>
+        <string>{-1, 49 }</string>
+        <string>{49, 50 }</string>
+        <string>{49, 0 }</string>
+        <string>{-1, 0 }</string>
+    </array>
+</dict>
+</plist>

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0103">
+    <steps>
+        
+         <step type="context" name="addingActions1">
+            <blocks>
+                <assessment type="programmatic" name="addingActions1"/>
+                <block type="title">
+                    <title id="beX-ev-zr8">Adding Actions: Part 1</title>
+                    <text id="Y3P-Dh-uzP">Instead of rock 👊, paper ✋, scissors ✌️, what if it were butterfly 🦋, fairy 🧚🏽‍♀, mushroom 🍄? Or robot 🤖, eagle 🦅, dragon 🐉, unicorn 🦄?</text>
+                    <image source="Page3-AddingActions-Header_2x">
+                        <description id="PRP-4a-W2w">Three example actions, pancakes, bacon, and eggs.</description>
+                    </image>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="Fwk-yv-tWV">To create your own actions, start by creating three <a href="glossary://variable">variables</a> using the <cv>Action</cv> <a href="glossary://type">type</a>. These variables know how to do action-like things, like how to beat other actions.</text>
+                </block>
+                <block type="text">
+                    <text id="PMt-Dk-NUD">Add your code to your global function, <cv>setupGame()</cv>:</text>
+                </block>
+                 <block type="code"><key>var</key> butterfly = Action(<str id="r3v-Au-sdJ">"🦋"</str>)
+                    <key>var</key> fairy = Action(<str id="Em2-Wr-fcV">"🧚🏽‍♀"</str>)
+                    <key>var</key> mushroom = Action(<str id="NRp-RS-2XH">"🍄"</str>)
+                </block>
+                 <block type="carrot" subtype="tryit"/>
+                 <block type="text">
+                     <text id="ybS-ek-tTR">Run your code to see your new actions.</text>
+                 </block>
+            </blocks>
+        </step>
+         
+         
+         <message name="addingActions1-hint" sender="hopper">
+             <blocks>
+                 <block type="text">
+                      <text id="YXQ-6P-Kdy">Try and add three actions. If you can’t think of any, you can always use these three:</text>
+                 </block>
+                 <block type="code"><key>var</key> butterfly = Action(<str id="Gk7-2c-4jq">"🦋"</str>)
+                     <key>var</key> fairy = Action(<str id="B9k-RY-aGt">"🧚🏽‍♀"</str>)
+                     <key>var</key> mushroom = Action(<str id="iEn-CC-egt">"🍄"</str>)
+                 </block>
+                 <block type="text">
+                     <text id="sQ4-vD-99C">Write this code <i>inside</i> the <cv>setupGame()</cv> function in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/MyGame.swift"><icon name="module"/> MyGame</a>.</text>
+                 </block>
+                 
+             </blocks>
+         </message>
+         
+         <message name="addingActions1-success" sender="byte">
+             <blocks>
+                 <block type="text">
+                      <text id="HSf-wh-BJ1"><b>Great start!</b></text>
+                 </block>
+                 <block type="text">
+                     <text id="m2T-kG-vVI">Next, write the logic used to decide which actions wins.</text>
+                 </block>
+                 <block type="buttons" alignment="trailing">
+                     <button href="@nextStep" symbol="arrow.right.circle.fill">
+                         <text id="Z9t-MW-LnK">Next</text>
+                     </button>
+                 </block>
+             </blocks>
+         </message>
+         
+         
+         
+         
+         
+         
+         
+        <step type="context" name="addingActions2">
+            <blocks>
+                <assessment type="programmatic" badge="true" name="addingActions2"/>
+                <block type="title" subtype="badge">
+                    <title id="Gdx-GG-Fpg">Adding Actions: Part 2</title>
+                    <text id="Wt1-zn-Ewn">Now comes the fun part: You get to decide if an action wins or loses when pitted against another action.</text>
+                </block>
+                <block type = "image" source="Page3-AddingActions_2x" height="0.65">
+                    <description id="Vcv-1A-9pi">An example of four actions, unicorn, peace sign, rock, and paper, and arrows showing which one each beats.</description>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="aj5-jd-2Kv">To do this, write your variable name, followed by a <a href="glossary://dot%20notation">dot</a> and then call the <cv>beats</cv> function, passing in the action it defeats.</text>
+                </block>
+                <block type="text">
+                    <text id="DRr-Ea-KQR">For example:</text>
+                </block>
+                <block type="code">butterfly.beats(fairy)</block>
+                <block type="text">
+                    <text id="9vm-gn-zSK">Complete the last two variables by deciding which actions they beat.</text>
+                </block>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="Lu5-an-Ntt">When you’ve finished, run your code and check to make sure your game works as you expect!</text>
+                </block>
+                
+            </blocks>
+        </step>
+        
+        
+        <message name="addingActions2-success" sender="byte">
+            <blocks>
+                <block type="text">
+                     <text id="nPY-cN-cVs"><b>Nice work!</b>
+                     
+                     You wired up the foundation of your game.</text>
+                </block>
+                <block type="text">
+                    <text id="yFY-Kw-QMM">Next, add a hidden action.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="stZ-Dv-Gya">Next</text>
+                    </button>
+                </block>
+            </blocks>
+        </message>
+        
+        <message name="addingActions2-hint" sender="hopper">
+            <blocks>
+                <block type="text">
+                     <text id="j99-Me-5W8">Each action has to beat another action. An example could be:</text>
+                 </block>
+                <block type="code">fairy.beats(mushroom)
+                    mushroom.beats(butterfly)
+                </block>
+                
+            </blocks>
+        </message>
+        
+        <message name="addingActions2-hint2" sender="hopper">
+            <blocks>
+                <block type="text">
+                     <text id="1HC-1N-Tye">Here is an example of what this could look like:</text>
+                </block>
+                <block type="code">fairy.beats(mushroom)
+                    mushroom.beats(butterfly)
+                    butterfly.beats(fairy)
+                </block>
+            </blocks>
+        </message>
+        
+        <step type="context" name="hidden">
+            <blocks>
+                <assessment type="programmatic" name="hidden"/>
+                <block type="title">
+                    <title id="JTX-mF-DnG">Adding a Hidden Action</title>
+                    <text id="4Bc-gV-Sza">You can also make hidden actions that only your opponent can select. Use an <a href="glossary://array">array</a> to make this action beat all other actions.</text>
+                    <image source="Page3-HiddenActions_2x">
+                        <description id="x6K-6w-bNW">A circle with unicorn emoji in the center. The image is blurry to show that the action is hidden.</description>
+                    </image>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="k6D-ZA-zht">Start with a normal action, but include a second <a href="glossary://argument">argument</a> (<cv>.hidden</cv>) when you create your variable. This argument tells your program to hide the new action from the human player.</text>
+                </block>
+                <block type="code"><key>var</key> love = Action(<str id="Bki-hN-SZH">"💖"</str>, type: .hidden)</block>
+                <block type="text">
+                    <text id="NGs-ud-Jzc">Because love 🥰 is so strong, it should beat everything else. To make this happen, pass in an <a href="glossary://array">array</a> (a list) of actions to the <cv>beats</cv> function.</text>
+                </block>
+                <block type="code">love.beats([butterfly, fairy, mushroom])</block>
+                <block type="text">
+                    <text id="x7T-Tg-P5S">Add the two lines of code above to your <cv>setupGame()</cv> function.</text>
+                </block>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="FVn-vT-wqE">Run your code and play a game against your robot opponent. Did the game just get a little more challenging?</text>
+                </block>
+                
+            </blocks>
+        </step>
+   
+   
+   
+   
+   <message name="hidden-hint" sender="hopper">
+       <blocks>
+           <block type="text">
+                <text id="6G2-Hc-LpG">You’ll need to start with a new action, an example could be:</text>
+            </block>
+           <block type="code"><key>var</key> love = Action(<str id="xwQ-GZ-fZi">"💖"</str>, type: .hidden)</block>
+           
+       </blocks>
+   </message>
+   
+   <message name="hidden-hint2" sender="hopper">
+       <blocks>
+           <block type="text">
+               <text id="QI7-yc-g4I">After creating the hidden action, write the code for what that action beats.
+                   
+                   If you want the hidden action to beat more than one other action, use an array, like this:</text>
+           </block>
+          <block type="code">love.beats([butterfly, fairy, mushroom])</block>
+       </blocks>
+   </message>
+   
+   <message name="hidden-success" sender="byte">
+       <blocks>
+           <block type="text">
+                <text id="X3t-Fw-eXJ"><b>Now your game is starting to get interesting!</b></text>
+           </block>
+            <block type="text">
+                <text id="wkm-EA-D6s">Take a minute to perfect your game. Change your actions, add more actions, and tweak everything until it’s just right.</text>
+            </block>
+            <block type="text">
+                <text id="gkN-kt-EQ1"><a href="glossary://debug">Debug</a> by running your code and playing the game to make sure everything works as expected. If something doesn’t work quite right, it’s up to you to fix it!</text>
+            </block>
+         
+           <block type="buttons" alignment="trailing">
+               <button href="@next" symbol="arrow.right.circle.fill">
+                   <text id="pXP-1C-VW8">Next</text>
+               </button>
+           </block>
+       </blocks>
+   </message>
+   
+   
+    </steps>
+</trail>
+

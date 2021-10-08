@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0106">
+    <steps>
+        
+        <step type="context">
+            <blocks>
+                <block type="title">
+                    <title id="1Ax-JW-Fhq">Sweet Victory</title>
+                    <text id="J7u-a4-nQB">You’ve come a long way! You’ve created a fully-functioning game that uses <a href="glossary://variable">variables</a>, <a href="glossary://type">types</a>, <a href="glossary://property">properties</a>, and <a href="glossary://method">methods</a>.</text>
+                </block>
+                <block type = "image" source="Page5-Victory_2x" height="0.9">
+                    <description id="gL8-wq-vfw">Trophy with fireworks.</description>
+                </block>
+                
+                 <block type="text">
+                    <text id="VtB-tR-npu">But what kind of victory would it be without a fun, sparkly winning animation?</text>
+                </block>
+               
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="arm-Rt-vhf">Teach me how!</text>
+                    </button>
+                </block>
+            </blocks>
+        </step>
+        <step type="context" name="winAnimation">
+            <blocks>
+                <assessment type="programmatic" name="winAnimation"/>
+                <block type="title">
+                    <title id="Di1-KY-UPI">Creating a Win Animation</title>
+                </block>
+                <block type="text">
+                    <text id="hfV-Wv-Suy">To create a win animation, you first have to know when a player wins a game. If you celebrate at the wrong time, it could be pretty awkward 😬.</text>
+                </block>
+                <block type="text">
+                    <text id="rkh-AI-YTw">Fortunately, the game has a property called <cv>onVictory</cv>. This property stores a <a href="glossary://function">function</a> that runs when a player wins a game.</text>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="pDB-K6-Gmv">All you have to do is create a function that contains your win animation and assign it as the value of <cv>onVictory</cv>.</text>
+                </block>
+                <block type="code"><key>func</key> victorious(player: Player) {
+                        player.graphic.moveAndFade(from: player.graphicPosition, to: Point.zero, fade: .fadeIn, duration: <num>3</num>)
+        
+                     }
+
+                     game.onVictory = victorious
+                 </block>
+                <block type="text">
+                    <text id="saC-hG-j7s">Add your code to <cv>setupGame()</cv>.</text>
+                </block>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="saC-hG-X7s">Run your code and play the game until you win to test out your new animation.</text>
+                </block>
+               
+            </blocks>
+        </step>
+        
+        
+        <message name="winAnimation-success" sender="byte">
+            <blocks>
+                <block type="text">
+                   <text id="dfa-Uv-Ykj"><b>You win...coding skills!</b></text>
+                </block>
+                <block type="text">
+                    <text id="6xr-Xz-vgn">But does winning feel fun enough yet?</text>
+                 </block>
+                 
+                 <block type="buttons" alignment="trailing">
+                     <button href="@nextStep" symbol="arrow.right.circle.fill">
+                         <text id="8Di-gr-sQH">Not even close!</text>
+                     </button>
+                 </block>
+            </blocks>
+        </message>
+        <message name="winAnimation-hint" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="dHA-9c-bvz">Add this code to the <cv>setupGame()</cv> function.</text>
+                 </block>
+                <block type="code"><key>func</key> victorious(player: Player) {
+                        player.graphic.moveAndFade(from: player.graphicPosition, to: Point.zero, fade: .fadeIn, duration: <num>3</num>)
+        
+                     }
+
+                     game.onVictory = victorious
+                 </block>
+                <block type="text">
+                   <text id="ffA-9c-bvz">Then, run your code.</text>
+                </block>
+            </blocks>
+        </message>
+        
+        
+        
+        
+        
+        
+        
+        <step type="context" name="sparkle">
+            <blocks>
+                <assessment type="programmatic" badge="true" name="sparkle"/>
+                <block type="title" subtype="badge">
+                    <title id="gpR-Ad-TtE">Make it Sparkle</title>
+                    <text id="Db1-Cb-QkK">Here are some ideas to jazz up that victory animation.</text>
+                </block>
+                <block type="carrot" subtype="experiment"/>
+                 <block type="text">
+                         <text id="TUS-oo-4Vv">Write your code inside the <cv>victorious</cv> function.</text>
+                    </block>
+                <groupblock subtype="task" name="modifiedSceneAnimations" disclosed="false">
+                         <title id="Lgk-yL-MSp">Scene Animations</title>
+                         <image source="scene-animation" backgroundcolor="#FFE2F4"/>
+                         <block type="text">
+                            <text id="uY5-yR-7kF">You can create some effects that affect the entire scene. Try them out!</text>
+                        </block>
+                         <block type="code">scene.orbs(duration: <num>7</num>, color: <literal>#colorLiteral(red: 0.9098039215686274, green: 0.47843137254901963, blue: 0.6431372549019608, alpha: 1.0)</literal>)</block>
+                         <block type="code">scene.confetti(duration: <num>7</num>)</block>
+                         <block type="code">scene.bubbles(duration: <num>7</num>)</block>
+                    </groupblock>
+                    <groupblock subtype="task" name="scaledPlayer" disclosed="false">
+                         <title id="3yZ-uM-MQI">Scale the Player Avatar</title>
+                         <image source="scale-the-player-avatar" backgroundcolor="#DBF5D8"/>
+                         <block type="text">
+                            <text id="FdQ-7x-Nzg">To access the player’s avatar, use <cv>player.graphic</cv>. To increase the size of the avatar, use the <cv>scale</cv> <a href="glossary://property">property</a>.</text>
+                        </block>
+                         <block type="code">player.graphic.scale = <num>3</num></block>
+                    </groupblock>
+                    <groupblock subtype="task" name="animatedPlayer" disclosed="false">
+                         <title id="CUE-Eu-EDJ">Animate the Avatar</title>
+                         <image source="animate-the-avatar" backgroundcolor="#FFF3CC"/>
+                         <block type="text">
+                            <text id="V9m-BV-pHL">You can create animations on the avatar as well. Try a few!</text>
+                        </block>
+                         <block type="code">player.graphic.sparkle(duration: <num>7</num>, color: <literal>#colorLiteral(red: -0.34208953380584717, green: 1.0164015293121338, blue: -0.3146502375602722, alpha: 1.0)</literal>)</block>
+                         <block type="code">player.graphic.pulsate(period: <num>0.3</num>, count: <num>4</num>)</block>
+                    </groupblock>
+                
+            </blocks>
+        </step>
+        
+        
+        <message name="sparkle-success" sender="byte">
+            <blocks>
+                 <block type="text">
+                    <text id="jcX-Ze-9bR"><b>Congratulations!</b></text>
+                </block>
+                <block type="text">
+                    <text id="gZI-Uw-ipr">✨👏You’ve built a fully custom game of Rock, Paper, Scissors. You’re on your way to becoming a master coder!</text>
+                </block>
+                <block type="text">
+                    <text id="RKP-dw-WKH">You can keep tinkering with your game until it’s as quirky as you want. When you think it’s ready, share it with a friend!</text>
+               </block>
+               <block type="text">
+                    <text id="UnI-8x-4vw">If you want more examples, check out the sample game.</text>
+               </block>
+               <block type="buttons" alignment="trailing">
+                   <button href="@next" symbol="arrow.right.circle.fill">
+                       <text id="tH8-Uk-Uwd">Check it out!</text>
+                   </button>
+               </block>
+            </blocks>
+        </message>
+        
+        <message name="sparkle-hint" sender="hopper">
+            <blocks>
+                 <block type="text">
+                     <text id="pR3-be-Dx8">Try out one of the experiments, such as:</text>
+                </block>
+               <block type="code">scene.confetti(duration: <num>7</num>)</block>
+               <block type="text">
+                   <text id="6pJ-J1-QAw">Write your code inside the <cv>victorious</cv> function.</text>
+               </block>
+            </blocks>
+        </message>
+        
+        
+        
+        
+    </steps>
+</trail>
+

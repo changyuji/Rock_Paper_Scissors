@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0101">
+    <steps>
+         <step type="context">
+            <blocks>
+                <block type="title">
+                    <title id="Lmu-ru-yTX">Welcome to Rock, Paper, Scissors!</title>
+                    <text id="3i6-DZ-yQ5">A game of little strategy and a lot of fun!</text>
+                </block>
+                <block type = "image" source="Page1-Welcome_2x" height="0.65">
+                    <description id="7A7-jp-FVi">At left, two circles showing scissors beats rock; at right, two circles showing paper beats rock; and on the bottom, two circles showing scissors beats paper.</description>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="3M9-xM-jV9">Get started!</text>
+                    </button>
+                </block>
+            </blocks>
+         </step>
+         
+         <step type="context">
+            <blocks>
+                <block type="title">
+                    <title id="i56-tr-wUy">Game Rules</title>
+                    <text id="vXA-eY-8u8">Ever heard of the game rock 👊, paper ✋, scissors ✌️?</text>
+                     <image source="Page2-GameRules_2x">
+                         <description id="EpB-wT-5Lg">Image showing that paper beats rock, rock beats scissors, and scissors beats paper.</description>
+                       </image>
+                </block>
+                <block type="text">
+                    <text id="teI-SK-X2b">Rock, Paper, Scissors is a game where you display one of three actions, each one beating another:</text>
+                </block>
+                 <block type="text">
+                    <text id="eH9-8e-piA">👊 beats ✌️
+                    ✋ beats 👊
+                    ✌️ beats ✋</text>
+                </block>
+                <block type="text">
+                    <text id="3rf-W2-Eru">Easy right?</text>
+                </block>
+                <block type="text">
+                    <text id="fsg-EY-Mws">But have you ever heard of yogie 🧘‍♀️, surfer 🏄‍♀️, climber 🧗‍♀️? What about pirate 🏴‍☠️, ninja ⚔️, zombie 🧟‍♀️?</text>
+                </block>
+                 <block type="text">
+                    <text id="cFb-mq-PGG">If you haven’t, that’s fine! Now’s your chance to write some code and create <i>your</i> version of this game.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="YzV-vi-pwM">Teach me how!</text>
+                    </button>
+                </block>
+            </blocks>
+         </step>
+          <step type="context" name="gameIsPlaying">
+                <blocks>
+                    <assessment type="programmatic" badge="true" name="gameIsPlaying"/>
+                    <block type="title" subtype="badge">
+                        <title id="eDI-z7-vmg">Creating a Game Variable</title>
+                        <text id="oiuweroiwj-sdkjdfls">To create your game, you'll need to use a <a href="glossary://variable">variable</a>.</text>
+                    </block>
+                    <block type="carrot" subtype="code"/>
+                    <block type="text">
+                        <text id="etj-Hs-FCp">You create a variable using <cv><key>var</key></cv> followed by the variable name.</text>
+                    </block>
+                    <block type="code"><key>var</key> game = Game()
+                    </block>
+                    <block type="text">
+                         <text id="mV8-62-EFz">Your <cv>game</cv> variable gets all of the abilities of the <cv>Game</cv> <a href="glossary://type">type</a>, including the ability to make a 👊, ✋, ✌️ game!</text>
+                    </block>
+                    <block type="text">
+                        <text id="Dh1-uC-APF">Try using one of the game's abilities to play the game.</text>
+                    </block>
+                    <block type="code">game.play()</block>
+                     <block type="text">
+                        <text id="ARb-av-Q6n">Write, drag and drop, or copy and paste both lines of code in the code editor.</text>
+                    </block>
+                     <block type="carrot" subtype="play"/>
+                     <block type="text">
+                         <text id="yCC-6P-Anf">Run your code and play a game!</text>
+                     </block>
+                    <groupblock disclosed="false">
+                        <image character="expert"/>
+                         <title id="mPJ-Xb-rNd">Want to learn a little more about variables?</title>
+                         <block type="text">
+                           <text id="PcY-SK-wgF">A variable lets you store information to use or modify whenever you want.</text>
+                       </block>
+                    </groupblock>
+                </blocks>
+            </step>
+         <message name="gameIsPlaying-hint" sender="hopper">
+              <blocks>
+                  <block type="text">
+                      <text id="v7V-LQ-Zfm">Looks like you forgot to do the fun part, play the game! Your code should look like this:</text>
+                  </block>
+                  <block type="text">
+                          <text id="9nP-rc-pMw"><cv><key>var</key> game = Game()
+                  game.play()</cv></text>
+                  </block>
+              </blocks>
+          </message>
+        
+        <message name="gameIsPlaying-success" sender="byte">
+            <blocks>
+                <block type="text">
+                    <text id="BIi-kt-8Sv"><b>Having fun playing around?</b></text>
+                </block>
+                <block type="text">
+                    <text id="Una-ix-cE9">It would be even more fun if it was <i>your</i> game! Keep going to learn how to make it your own.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@next" symbol="arrow.right.circle.fill">
+                        <text id="1Vj-gm-JJY">Next</text>
+                    </button>
+                </block>
+            </blocks>
+        </message>
+    </steps>
+</trail>

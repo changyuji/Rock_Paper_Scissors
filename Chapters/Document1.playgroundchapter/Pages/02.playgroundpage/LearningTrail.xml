@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<trail version="1.1" name="0102">
+    <steps>
+        
+        <step type="context">
+            <blocks>
+                <block type="title">
+                    <title id="9Qw-rK-8ww">Sharing Your Code</title>
+                    <text id="4R8-Md-VE2">In this challenge, there are two primary places you will write code, <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> and <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/MyGame.swift"><icon name="module"/> MyGame</a>.</text>
+                    <image source="Page2-SharingYourCode-Header_2x">
+                        <description id="u5Q-As-Dn6">Two files, main and MyGame.</description>
+                    </image>
+                </block>
+                 <block type="text">
+                    <text id="FTr-me-p3t">Why, you ask? Well, sometimes in coding, you want to <b>access your code anywhere</b>. This is where <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/MyGame.swift"><icon name="module"/> MyGame</a> comes in handy! It can share with all of the other files.</text>
+                </block>
+                 <block type="text">
+                    <text id="4G4-Lh-wrt">The code in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file is for that location only! No sharing allowed 😔.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="MNw-M5-S4V">Try it!</text>
+                    </button>
+                </block>
+            </blocks>
+        </step>
+        
+        <step type="code" name="addOpponent">
+            <blocks>
+                <assessment type="programmatic" name="addOpponent"/>
+                <block type="title">
+                    <title id="4H7-Dp-GiJ">Your First Global Variable</title>
+                    <text id="ted-22-XPV">To use the same variable on every page and in every file, use a <a href="glossary://global%20variable">global variable</a>!</text>
+                </block>
+                <block type="carrot" subtype="find"/>
+                <block type="text">
+                    <text id="xz8-MW-yUQ"><a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/MyGame.swift">Look in <icon name="module"/> MyGame</a> and find the following code:</text>
+                </block>
+                <block type="text">
+                    <text id="CSs-Mb-i5T"><cv><key>public var</key> game = Game()</cv></text>
+                </block>
+                <block type="text">
+                    <text id="UWj-p6-9EZ">Because <cv>game</cv> is in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/MyGame.swift"><icon name="module"/> MyGame</a> and has the word <cv><key>public</key></cv> in front of it, which means you can use that variable on any page in this book!</text>
+                </block>
+                <block type="text">
+                    <text id="ted-1q-XPV">The word <cv><key>public</key></cv> tells <a href="glossary://Swift">Swift</a> to share your variable everywhere — which makes it a <a href="glossary://global%20variable">global variable</a>.</text>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="kve-I7-aMG">Try it! <a href="playgrounds://currentdocument/currentpage/editor">Open <icon name="main"/> main</a> and add the following code at the top of the file.</text>
+                </block>
+                <block type="code">game.addOpponent(<str id="CNJ-KB-P8m">"🦧"</str>)</block>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="pJR-KU-XCa">Run your code and play a game against your new opponent.</text>
+                </block>
+                <groupblock disclosed="false">
+                    <image character="expert"/>
+                     <title id="CvY-wS-jyy">Did you know you are using a global variable?</title>
+                    <block type="text">
+                        <text id="zCD-mM-PcH">When you add, <cv>game.addOpponent("🦧")</cv> in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file, that’s an example of accessing the global variable <cv>game</cv>.</text>
+                    </block>
+                    <block type="text">
+                        <text id="4aB-XH-Msi"><b>Pro tip</b>: Add up to four opponents to your game to increase the fun!</text>
+                    </block>
+                </groupblock>
+            </blocks>
+        </step>
+        
+        
+        <message name="addOpponent-success" sender="byte">
+            <blocks>
+                <block type="text">
+                    <text id="pqywtwtwtwtG-bL-A6S"><b>Success!</b>
+                        
+                        Your opponent is now an orangutan! Mind blown?</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@nextStep" symbol="arrow.right.circle.fill">
+                        <text id="8Ce-Jk-1pm">🤯 Now what?</text>
+                    </button>
+                </block>
+            </blocks>
+        </message>
+        
+        
+        <message name="addOpponent-hint" sender="hopper">
+            <blocks>
+                <block type="text">
+                    <text id="pqG-bL-A6Swwwwww">Did you remember to write your code before <cv>game.play()</cv>?</text>
+                </block>
+            </blocks>
+        </message>
+        
+        
+        
+        
+        <step type="context">
+            <blocks>
+                <assessment type="response" badge="true"/>
+                <block type="title" subtype="badge">
+                    <title id="vCc-8q-5M7">Share and Share Alike</title>
+                </block>
+                <block type="carrot" subtype="find"/>
+                <block type="text">
+                    <text id="cJA-Zw-9Jv"><a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/MyGame.swift">Peek in <icon name="module"/> MyGame</a> and find the <cv>setupGame()</cv> function.</text>
+                </block>
+                <block type="response" subtype="single-choice" name="level" confirm="true">
+                    <prompt id="s2J-bC-WgA">This function also has the word <cv><key>public</key></cv> in front of it. What do you think this means?</prompt>
+                    <option type="correct">
+                        <text id="Y7D-kD-gkJ">It means it’s a global function that you can access from anywhere.</text>
+                        <feedback id="55Z-Hp-5Zt">Absolutely! The <cv><key>public</key></cv> keyword makes it a <a href="glossary://global%20function">global function</a>.
+                        
+                        In addition to putting your code in your shared file (<a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/MyGame.swift"><icon name="module"/> MyGame</a>), you also have to write <cv><key>public</key></cv> to share it between files.
+                        
+                            <a href="@nextStep">Next</a>, try changing the global variable <cv>roundPrize</cv>.</feedback>
+                    </option>
+                    <option>
+                        <text id="iNk-P1-6hf">It means it’s a private function, only to that file.</text>
+                        <feedback id="f28-Ye-TGd">No, that’s what the <a href="glossary://private"><cv><key>private</key></cv></a> keyword is for. Try again!</feedback>
+                    </option>
+             </block>
+            </blocks>
+        </step>
+        <step type="context" name="roundPrize">
+            <blocks>
+                <assessment type="programmatic" name="roundPrize"/>
+                <block type="title">
+                    <title id="F3v-BB-Euu">Using Your Global Function</title>
+                    <text id="N5t-46-HBX">Now that you’ve got the hang of <a href="glossary://global%20function">global functions</a> and <a href="glossary://global%20variable">global variables</a>, give it a try! </text>
+                </block>
+                <block type="carrot" subtype="code"/>
+                <block type="text">
+                    <text id="5EQ-ip-YSC">Change the prize for each round to a 🍭, or a treat of your choice 😋.</text>
+                </block>
+                <block type="text">
+                    <text id="5EQ-sp-YSC">Add your code inside the <cv>setupGame()</cv> function in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/MyGame.swift"><icon name="module"/> MyGame</a>.</text>
+                </block>
+                <block type="code">game.roundPrize = <str id="u6Y-Zu-5Wh">"🍭"</str></block>
+                <block type="carrot" subtype="play"/>
+                <block type="text">
+                    <text id="gAs-Sv-YrW">Run your code and find your new round prize next to the score.</text>
+                </block>
+                
+            </blocks>
+        </step>
+        
+        <message name="roundPrize-success" sender="byte">
+           <blocks>
+               <block type="text">
+                   <text id="CxL-mh-LYg"><b>That’s a good prize 😋!</b></text>
+               </block>
+                <block type="text">
+                    <text id="r7k-JQ-Eaa">Next up, create your own custom actions.</text>
+                </block>
+                <block type="buttons" alignment="trailing">
+                    <button href="@next" symbol="arrow.right.circle.fill">
+                        <text id="EfV-gX-HSn">Next</text>
+                    </button>
+                </block>
+           </blocks>
+       </message>
+
+        <message name="roundPrize-hint1" sender="hopper">
+              <blocks>
+                  <block type="text">
+                      <text id="hghghghgh">Try using your global function by changing the round prize.</text>
+                  </block>
+                    <block type="text">
+                        <text id="sQ4-vD-88C">Write this code <i>inside</i> the <cv>setupGame()</cv> function in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/MyGame.swift"><icon name="module"/> MyGame</a>.</text>
+                    </block>
+                   <block type="code">game.roundPrize = <str id="rsF-b6-sFC">"🍭"</str>
+                   </block>
+                   <block type="text">
+                      <text id="zVi-vz-cZX">Change the emoji to give it your own flavor.</text>
+                  </block>
+                  
+              </blocks>
+          </message>
+        
+        <message name="roundPrize-hint2" sender="hopper">
+              <blocks>
+                  <block type="text">
+                      <text id="sQueueueuueue">You changed the round prize, but you didn’t do it in the <cv>setupGame()</cv> function in <a href="playgrounds://currentdocument/UserModules/MyFiles.playgroundmodule/Sources/MyGame.swift"><icon name="module"/>MyGame</a>.
+                      </text>
+                  </block>
+                  <block type="text">
+                      <text id="fc1-HQ-6z7">Try changing the round prize in <cv>setupGame()</cv> instead of in the <a href="playgrounds://currentdocument/currentpage/editor"><icon name="main"/> main</a> file.</text>
+                  </block>
+              </blocks>
+          </message>
+        
+    </steps>
+</trail>
+
